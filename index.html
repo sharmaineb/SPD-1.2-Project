@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Lens</title>
     <!--Bootstrap stylesheet-->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -14,53 +14,52 @@
 <body>
 <!--Nav-->
 <ul class="nav nav-tabs justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="index.html">Find Movie/Show</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="home.html">Home</a></li>
-        <li><a class="dropdown-item" href="index.html">Find Movie/Show</a></li>
-        <li><a class="dropdown-item" href="results.html">Results</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
-      </ul>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">What's New</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled">About</a>
-    </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="index.html">Find Film/Show</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="home.html">Home</a></li>
+      <li><a class="dropdown-item" href="index.html">Find Movie/Show</a></li>
+      <li><a class="dropdown-item" href="results.html">Results</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">What's New</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="profile.html">My Profile</a>
 </ul>
 <!--End Nav-->
 <!--Content/Modal-->
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin: 0.7em;">Launch demo modal</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin: 0.7em;">Help</button>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Instructions:</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="modal-body">Fill in what you remember from the show or film. If you don't remember anything, fill in what you think the show or film you're trying to find is about.
+        For recommendations, describe what kind of films/shows you're intersted in watching.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
 <!--End Content/Modal-->
-
-
 <!--Form-->
 <div class="form-check" style="margin: 0.7em;">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -80,33 +79,31 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
   </div>
   <div class="form-group" style="margin: 0.7em;">
-    <label for="exampleFormControlTextarea1" style="margin-left: 0.1em;">Songs in the Film/Show:</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-  </div>
-  <div class="form-group" style="margin: 0.7em;">
-    <label for="exampleFormControlSelect1" style="margin-left: 0.1em;">I dunno what to put here yet</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group" style="margin: 0.7em;">
-    <label for="exampleFormControlSelect2" style="margin-left: 0.1em;">I dunno what to put here yet</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group" style="margin: 0.7em;">
     <label for="exampleFormControlTextarea1" style="margin-left: 0.1em;">Description of Film/TV Show (From what you can remember):</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-    <button type="button" class="btn btn-info" style="margin-top: 0.7em;">Submit</button>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  </div>
+  <div class="form-group" style="margin: 0.7em;">
+    <label for="exampleFormControlSelect1" style="margin-left: 0.1em;">Platform</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Netflix</option>
+      <option>Hulu</option>
+      <option>Disney +</option>
+      <option>HBO Max</option>
+      <option>Apple TV +</option>
+      <option>Prime Video</option>
+      <option>Peacock</option>
+      <option>Paramount +</option>
+      <option>Showtime Now</option>
+      <option>Starz</option>
+      <option>Criterion Channel</option>
+      <option>AMC +</option>
+      <option>Discovery +</option>
+    </select>
+  </div>
+  <div class="form-group" style="margin: 0.7em;">
+    <label for="exampleFormControlTextarea1" style="margin-left: 0.1em;">Music in the Film/Show:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <a href="results.html" class="btn btn-info" style="margin-top: 0.7em;">Submit</a>
   </div>
 </form>
 <!--End Form-->
