@@ -1,0 +1,30 @@
+.carousel img {
+    height: 650px;
+    width: 95%;
+    margin-top: 1.5em;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.card-deck img {
+    max-width:100%;
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+         
+ }
+ 
+ .row {
+     gap: 1em;
+     margin: 1.5em;
+ }
+ 
+ .card-group {
+     margin: 1.5em;
+ }
+ 
+ .card img {
+     margin: 0.7em;
+ }
